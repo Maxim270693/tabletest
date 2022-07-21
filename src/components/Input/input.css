@@ -1,0 +1,31 @@
+.inputWrapper {
+    position: relative;
+}
+
+/*.inputWrapper img {*/
+/*    position: absolute;*/
+/*    top: 40px;*/
+/*    right: 295px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.input {
+    margin: 23px 0 15px 78px;
+    width: 631px;
+    height: 52px;
+    background-color: #5A5C66;
+    cursor: pointer;
+    color: white;
+}
+
+.input::placeholder {
+    color: #B2B7BF;
+    padding: 18px 0 15px 26px;
+}
+
+.inputWrapperIcon {
+    position: absolute;
+    top: 40px;
+    right: 295px;
+    cursor: pointer;
+}

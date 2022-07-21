@@ -1,4 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.AppHeader {
+    background-color: #474955;
+    border-color: #474955;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.AppHeader th {
+    padding: 18px 0 15px 0;
+}
+
+.AppHeader th:first-child {
+    padding-left: 23px;
+}
+
+.AppHeader th:nth-child(n+2) {
+    padding-left: 66px;
 }
