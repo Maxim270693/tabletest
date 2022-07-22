@@ -2,15 +2,8 @@
     position: relative;
 }
 
-/*.inputWrapper img {*/
-/*    position: absolute;*/
-/*    top: 40px;*/
-/*    right: 295px;*/
-/*    cursor: pointer;*/
-/*}*/
-
 .input {
-    margin: 23px 0 15px 78px;
+    margin: 23px 0 15px 0;
     width: 631px;
     height: 52px;
     background-color: #5A5C66;

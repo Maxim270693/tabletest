@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBtn {
+    color: #474955;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.footerBtn:last-child {
+    margin-right: 50px;
+}
+
+.footerBtn:first-child {
+    margin-left: 50px;
+}

@@ -3,6 +3,6 @@ import {PostType} from "../types/types";
 
 export const postsApi = {
     getPost() {
-        return axios.get<PostType[]>('https://jsonplaceholder.typicode.com/posts?_limit=10')
+        return axios.get<PostType[]>(`https://jsonplaceholder.typicode.com/posts`)
     }
 }

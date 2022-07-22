@@ -1,0 +1,19 @@
+.paginationWrapper {
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+
+.paginationWrapperList {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.pagination {
+    color: #474955;
+    text-decoration: none;
+}
+
+.active {
+    color: #7EBC3C;
+    text-decoration: none;
+}
