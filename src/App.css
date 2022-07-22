@@ -4,12 +4,28 @@
     font-family: Roboto, sans-serif;
 }
 
+.container {
+    padding: 24px;
+}
+
 .AppHeader {
     background-color: #474955;
     border-color: #474955;
     color: white;
     font-weight: 600;
     font-size: 14px;
+}
+
+.AppHeaderId {
+    position: relative;
+}
+
+.AppHeaderTitle {
+    position: relative;
+}
+
+.AppHeaderDescription {
+    position: relative;
 }
 
 .AppHeader th {
@@ -22,4 +38,31 @@
 
 .AppHeader th:nth-child(n+2) {
     padding-left: 66px;
+}
+
+.buttonDownId {
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.buttonDownTitle {
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.buttonDownDescription {
+    position: absolute;
+    top: 25px;
+    left: 186px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .AppHeader th:nth-child(n+2) {
+        padding-left: 0;
+    }
 }

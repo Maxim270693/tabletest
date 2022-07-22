@@ -1,5 +1,6 @@
 import React from 'react';
 import {PostType} from "../../types/types";
+import './posts.css';
 
 const Posts: React.FC<{ posts: PostType[] }> = ({posts}) => {
 
@@ -7,7 +8,7 @@ const Posts: React.FC<{ posts: PostType[] }> = ({posts}) => {
         <tbody>
         {posts.length
             ? posts.map((post => <tr key={post.id}>
-                <td style={{padding: '45px 51px'}}>{post.id}</td>
+                <td className="postsId">{post.id}</td>
                 <td>{post.title}</td>
                 <td>{post.body}</td>
             </tr>))

@@ -1,0 +1,15 @@
+.postsId {
+    padding: 45px 51px !important;
+}
+
+@media screen and (max-width: 578px) {
+    .postsId {
+        padding: 25px 31px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .postsId {
+        padding: 15px 16px !important;
+    }
+}
